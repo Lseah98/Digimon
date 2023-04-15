@@ -1,7 +1,7 @@
 // Obtener el elemento select del DOM
 const selectElement = document.getElementById("selectDigimon");
 
-// Obtener datos de la API (este es solo un ejemplo, debes reemplazarlo con la URL real de tu API)
+// Obtener datos de la API
 fetch("https://digimon-api.vercel.app/api/digimon")
   .then(response => response.json())
   .then(data => {
